@@ -5,4 +5,7 @@ PRODUCT_PACKAGES += \
     GoogleKeep \
     GoogleDrive \
     GoogleTranslate \
-    GoogleSnapseed
+    GoogleSnapseed \
+    YouTubeReVanced \
+    YTMusicVanced \
+    MicroG
