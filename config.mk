@@ -3,4 +3,5 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     GoogleKeep \
-    GoogleDrive
+    GoogleDrive \
+    GoogleTranslate 
