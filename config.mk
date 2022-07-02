@@ -7,5 +7,4 @@ PRODUCT_PACKAGES += \
     GoogleTranslate \
     GoogleSnapseed \
     YouTubeReVanced \
-    YTMusicVanced \
-    MicroG
+    YTMusicVanced
