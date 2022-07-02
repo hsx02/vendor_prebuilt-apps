@@ -78,3 +78,29 @@ android_app_import {
 	product_specific: true,
 	overrides: ["YouTubeMusic" , "YTMusic"],
 }
+
+android_app_import {
+	name: "GoogleMaps",
+	owner: "google",
+	apk: "GoogleMaps.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["Maps" , "maps"],
+}
+
+android_app_import {
+	name: "GoogleGmail",
+	owner: "google",
+	apk: "GoogleGmail.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["Gmail" , "gmail"],
+}

@@ -7,4 +7,6 @@ PRODUCT_PACKAGES += \
     GoogleTranslate \
     GoogleSnapseed \
     YouTubeReVanced \
-    YTMusicVanced
+    YTMusicVanced \
+    GoogleMaps \
+    GoogleGmail
