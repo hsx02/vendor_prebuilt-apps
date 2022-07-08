@@ -78,3 +78,147 @@ android_app_import {
 	product_specific: true,
 	overrides: ["YouTubeMusic" , "YTMusic"],
 }
+
+android_app_import {
+	name: "Bromite",
+	owner: "google",
+	apk: "Bromite.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["bro"],
+}
+
+android_app_import {
+	name: "MXPlayer",
+	owner: "google",
+	apk: "MXPlayer.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["mxpl"],
+}
+
+android_app_import {
+	name: "SwiftBackup",
+	owner: "google",
+	apk: "SwiftBackup.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["swft"],
+}
+
+android_app_import {
+	name: "Weather",
+	owner: "google",
+	apk: "Weather.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["weth"],
+}
+
+android_app_import {
+	name: "TitBackup",
+	owner: "google",
+	apk: "TitBackup.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["titb"],
+}
+
+android_app_import {
+	name: "TitAddon",
+	owner: "google",
+	apk: "TitAddon.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["TitA"],
+}
+
+android_app_import {
+	name: "Mixplorer",
+	owner: "google",
+	apk: "Mixplorer.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["mixp"],
+}
+
+android_app_import {
+	name: "MixArchive",
+	owner: "google",
+	apk: "MixArchive.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["MixA"],
+}
+
+android_app_import {
+	name: "FKM",
+	owner: "google",
+	apk: "FKM.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["fk"],
+}
+
+android_app_import {
+	name: "Compass",
+	owner: "google",
+	apk: "Compass.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["comp"],
+}
+
+android_app_import {
+	name: "ApkTool",
+	owner: "google",
+	apk: "ApkTool.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["apkto"],
+}
+
