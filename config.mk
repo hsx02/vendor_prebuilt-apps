@@ -7,15 +7,4 @@ PRODUCT_PACKAGES += \
     GoogleTranslate \
     GoogleSnapseed \
     YouTubeReVanced \
-    YTMusicVanced \
-    Bromite \
-    MXPlayer \
-    SwiftBackup \
-    Weather \
-    TitBackup \
-    TitAddon \
-    Mixplorer \
-    MixArchive \
-    FKM \
-    Compass \
-    ApkTool
+    YTMusicVanced
