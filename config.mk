@@ -9,13 +9,8 @@ PRODUCT_PACKAGES += \
     YouTubeReVanced \
     YTMusicVanced \
     Bromite \
-    MXPlayer \
-    SwiftBackup \
     Weather \
-    TitBackup \
-    TitAddon \
-    Mixplorer \
-    MixArchive \
-    FKM \
     Compass \
-    ApkTool
+    GoogleGmail \
+    Termux \
+    AlphaBackupPro

@@ -93,107 +93,42 @@ android_app_import {
 }
 
 android_app_import {
-	name: "MXPlayer",
+	name: "GoogleGmail",
 	owner: "google",
-	apk: "MXPlayer.apk",
+	apk: "GoogleGmail.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
 	product_specific: true,
-	overrides: ["mxpl"],
+	overrides: ["Gmail"],
 }
 
 android_app_import {
-	name: "SwiftBackup",
+	name: "AlphaBackupPro",
 	owner: "google",
-	apk: "SwiftBackup.apk",
+	apk: "AlphaBackupPro.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
 	product_specific: true,
-	overrides: ["swft"],
+	overrides: ["apkback"],
 }
 
 android_app_import {
-	name: "Weather",
+	name: "Termux",
 	owner: "google",
-	apk: "Weather.apk",
+	apk: "Termux.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
 	product_specific: true,
-	overrides: ["weth"],
-}
-
-android_app_import {
-	name: "TitBackup",
-	owner: "google",
-	apk: "TitBackup.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["titb"],
-}
-
-android_app_import {
-	name: "TitAddon",
-	owner: "google",
-	apk: "TitAddon.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["TitA"],
-}
-
-android_app_import {
-	name: "Mixplorer",
-	owner: "google",
-	apk: "Mixplorer.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["mixp"],
-}
-
-android_app_import {
-	name: "MixArchive",
-	owner: "google",
-	apk: "MixArchive.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["MixA"],
-}
-
-android_app_import {
-	name: "FKM",
-	owner: "google",
-	apk: "FKM.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["fk"],
+	overrides: ["terminal"],
 }
 
 android_app_import {
@@ -208,17 +143,3 @@ android_app_import {
 	product_specific: true,
 	overrides: ["comp"],
 }
-
-android_app_import {
-	name: "ApkTool",
-	owner: "google",
-	apk: "ApkTool.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["apkto"],
-}
-
