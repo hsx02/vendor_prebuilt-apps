@@ -6,11 +6,12 @@ PRODUCT_PACKAGES += \
     GoogleDrive \
     GoogleTranslate \
     GoogleSnapseed \
-    YouTubeReVanced \
+    YouTubeVanced \
     YTMusicVanced \
     Bromite \
     Weather \
     Compass \
     GoogleGmail \
     Termux \
-    AlphaBackupPro
+    AlphaBackupPro \
+    SettingsOverlay

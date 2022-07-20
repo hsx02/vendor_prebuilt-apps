@@ -54,9 +54,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "YouTubeReVanced",
-	owner: "RevancedRBMods",
-	apk: "YouTubeReVanced.apk",
+	name: "YouTubeVanced",
+	owner: "YoutubeExtended",
+	apk: "YouTubeVanced.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -142,4 +142,30 @@ android_app_import {
 	privileged: true,
 	product_specific: true,
 	overrides: ["comp"],
+}
+
+android_app_import {
+	name: "VancedManager",
+	owner: "google",
+	apk: "VancedManager.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["vancedmanager"],
+}
+
+android_app_import {
+	name: "SettingsOverlay",
+	owner: "google",
+	apk: "SettingsOverlay.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["setov"],
 }
