@@ -14,4 +14,5 @@ PRODUCT_PACKAGES += \
     GoogleGmail \
     Termux \
     AlphaBackupPro \
-    SettingsOverlay
+    SettingsOverlay \
+    VancedManager
